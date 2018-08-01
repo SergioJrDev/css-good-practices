@@ -1,0 +1,82 @@
+@import './_vars';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+p, h1, h2, h3, span {
+  color: $white;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+ul, ol {
+  padding-left: 15px;
+}
+
+li {
+  color: $white;
+}
+
+.opacity-3 {
+  opacity: .3;
+}
+
+.fs {
+  font-size: 1.3rem;
+  &-xl {
+    font-size: 2.5rem;
+  }
+  &-lg {
+    font-size: 2rem;
+  }
+  &-sm {
+    font-size: 1rem;
+  }
+  &-xs {
+    font-size: .8rem;
+  }
+}
+
+.mg-bottom {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  color: $white;
+  background-color: $themeDark;
+  &-middle {
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    &-right {
+      right: 15px
+    }
+    &-left {
+      left: 15px;
+    }
+  }
+}

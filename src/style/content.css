@@ -1,0 +1,5 @@
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 57px);
+  justify-content: center; }
