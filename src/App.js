@@ -1,19 +1,7 @@
-import React, { Component } from 'react';
-import StateMachine from './StateMachine'
-import { AppWrapper } from './styled-components'
+import React from 'react';
 import './style/index.css'
+import AppRouted from './routes'
 
-class App extends Component {
-  render() {
-    return (
-      <AppWrapper>
-        <div className="container">
-          <h1 className="opacity-3">CSS Workshop</h1>
-          <StateMachine />
-        </div>
-      </AppWrapper>
-    );
-  }
-}
+const App = () => <AppRouted />
 
-export default App;
+export default App

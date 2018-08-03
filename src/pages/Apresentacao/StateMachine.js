@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { State, withStatechart } from 'react-automata'
 import StateConfig from './StateConfig'
-import { ContentWrapper } from './components'
-import './style/index.css'
+import { ContentWrapper } from './../../components'
+import './../../style/index.css'
 import {
   Indice, BoasPraticas,
 } from './views'
