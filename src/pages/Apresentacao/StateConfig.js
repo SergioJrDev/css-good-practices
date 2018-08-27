@@ -1,71 +1,52 @@
 const StateConfig = {
-  initial: 'Indice',
+  initial: "Indice",
   states: {
     Indice: {
       on: {
-        NEXT: 'BoasPraticas',
-      },
+        NEXT: "BoasPraticas"
+      }
     },
     BoasPraticas: {
       on: {
-        PREV: 'Indice',
-        NEXT: 'VariaveisGlobais'
-      },
+        PREV: "Indice",
+        NEXT: "UnidadesDeMedidas"
+      }
+    },
+    UnidadesDeMedidas: {
+      on: {
+        PREV: "BoasPraticas",
+        NEXT: "VariaveisGlobais"
+      }
     },
     VariaveisGlobais: {
       on: {
-        PREV: 'BoasPraticas',
-        NEXT: 'Escopo'
-      },
-    },
-    Escopo: {
-      on: {
-        PREV: 'VariaveisGlobais',
-        NEXT: 'Metodologias'
-      },
+        PREV: "UnidadesDeMedidas",
+        NEXT: "Metodologias"
+      }
     },
     Metodologias: {
       on: {
-        PREV: 'Escopo',
-        NEXT: 'Organizacao'
-      },
-    },
-    Organizacao: {
-      on: {
-        PREV: 'Metodologias',
-        NEXT: 'StyleGuide'
-      },
-    },
-    StyleGuide: {
-      on: {
-        PREV: 'Organizacao',
-        NEXT: 'FrameworksUI'
-      },
+        PREV: "VariaveisGlobais",
+        NEXT: "FrameworksUI"
+      }
     },
     FrameworksUI: {
       on: {
-        PREV: 'StyleGuide',
-        NEXT: 'Flex'
-      },
-    },
-    Flex: {
-      on: {
-        PREV: 'FrameworksUI',
-        NEXT: 'Grid'
-      },
+        PREV: "Metodologias",
+        NEXT: "Grid"
+      }
     },
     Grid: {
       on: {
-        PREV: 'Flex',
-        NEXT: 'CSSBeyond'
-      },
+        PREV: "FrameworksUI"
+      }
     },
     CSSBeyond: {
       on: {
-        PREV: 'Grid',
-      },
-    },
-  },
-}
+        PREV: "Grid"
+      }
+    }
+  }
+};
 
 export default StateConfig;

@@ -1,16 +1,17 @@
-import React from 'react'
+import React from "react";
 
-const BoasPraticas = () => (
+const UnidadesDeMedidas = () => (
   <ul>
-    <li><p>Sempre prefira classes</p></li>
-    <li><p>Mantenha os arquivos de um componente no mesmo lugar</p></li>
-    <li><p>Use uma nomenclatura consistente</p></li>
-    <li><p>Sempre use a mesma nomenclatura para nome de arquivos</p></li>
-    <li><p>Evite vazamentos de estilos para fora do componente</p></li>
-    <li><p>Evite vazamentos de estilos dentro do componente</p></li>
-    <li><p>Respeito os limites do componente</p></li>
-    <li><p>Um modo mais simples de usar estilos externos</p></li>
-</ul>
-)
+    <li>
+      <p>
+        px - pixel % - Porcentagem em relação ao pai vh (view height) -
+        Porcentagem em relação a altura da tela vw (view width) - Porcentagem em
+        relação a largura da tela vmin (view min) - Porcentagem em relação a
+        menor dimensão na tela vmax (view max) - Porcentagem em relação a maior
+        dimensão na tela outras para fontes: (em, rem, ex, ch)
+      </p>
+    </li>
+  </ul>
+);
 
-export default BoasPraticas
+export default UnidadesDeMedidas;
