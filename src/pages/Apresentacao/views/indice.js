@@ -6,9 +6,6 @@ const Indice = () => (
       <p>Boas práticas</p>
     </li>
     <li>
-      <p>Unidades de medidas</p>
-    </li>
-    <li>
       <p>Variáveis e estilos globais</p>
     </li>
     <li>

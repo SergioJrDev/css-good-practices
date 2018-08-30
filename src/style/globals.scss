@@ -1,19 +1,27 @@
-@import './_vars';
+@import "./_vars";
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background: #35a7ff;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 920px;
   padding: 15px;
   margin: 0 auto;
 }
 
-p, h1, h2, h3, span {
+p,
+h1,
+h2,
+h3,
+span {
   color: $white;
 }
 
@@ -22,7 +30,8 @@ p {
   line-height: 2rem;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 15px;
 }
 
@@ -31,7 +40,7 @@ li {
 }
 
 .opacity-3 {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .fs {
@@ -46,7 +55,7 @@ li {
     font-size: 1rem;
   }
   &-xs {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -73,7 +82,7 @@ li {
     top: 0;
     bottom: 0;
     &-right {
-      right: 15px
+      right: 15px;
     }
     &-left {
       left: 15px;

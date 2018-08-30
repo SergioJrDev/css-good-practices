@@ -1,5 +1,5 @@
 const StateConfig = {
-  initial: "Indice",
+  initial: "Metodologias",
   states: {
     Indice: {
       on: {
