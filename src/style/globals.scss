@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #35a7ff;
+  background: #1d1f21;
 }
 
 .container {
@@ -37,6 +37,10 @@ ol {
 
 li {
   color: $white;
+}
+
+img {
+  max-width: 100%;
 }
 
 .opacity-3 {

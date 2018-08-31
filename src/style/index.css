@@ -5,7 +5,7 @@
   font-family: "Raleway", sans-serif; }
 
 body {
-  background: #35a7ff; }
+  background: #1d1f21; }
 
 .container {
   max-width: 920px;
@@ -29,6 +29,9 @@ ol {
 
 li {
   color: #fff; }
+
+img {
+  max-width: 100%; }
 
 .opacity-3 {
   opacity: 0.3; }

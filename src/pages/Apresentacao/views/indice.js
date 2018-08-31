@@ -3,34 +3,25 @@ import React from "react";
 const Indice = () => (
   <ul>
     <li>
-      <p>Boas práticas</p>
+      <p>Boas Práticas</p>
+    </li>
+    <li>
+      <p>Unidades de Medidas</p>
     </li>
     <li>
       <p>Variáveis e estilos globais</p>
     </li>
     <li>
-      <p>Escopo</p>
-    </li>
-    <li>
       <p>Metodologias</p>
     </li>
     <li>
-      <p>Organização</p>
+      <p>Atomic Design</p>
     </li>
     <li>
-      <p>Style Guide</p>
-    </li>
-    <li>
-      <p>Frameworks e UI-Kit</p>
-    </li>
-    <li>
-      <p>Flex</p>
+      <p>Frameworks e UI-Kit's</p>
     </li>
     <li>
       <p>Grid</p>
-    </li>
-    <li>
-      <p>CSS além do layout</p>
     </li>
   </ul>
 );

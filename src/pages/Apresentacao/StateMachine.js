@@ -10,7 +10,9 @@ import {
   Grid,
   Metodologias,
   UnidadesDeMedidads,
-  VariaveisGlobais
+  VariaveisGlobais,
+  AtomicDesign,
+  CSSAlemDoLayout
 } from "./views";
 
 class App extends Component {
@@ -42,13 +44,19 @@ class App extends Component {
           <ContentWrapper title="Metodologias" component={Metodologias} />
         </State>
         <State value="FrameworksUI">
-          <ContentWrapper title="Frameworks e UI-Kit" component={Frameworks} />
+          <ContentWrapper
+            title="Frameworks e UI-Kit's"
+            component={Frameworks}
+          />
         </State>
         <State value="Grid">
           <ContentWrapper title="Grid" component={Grid} />
         </State>
+        <State value="Atomic">
+          <ContentWrapper title="Atomic Design" component={AtomicDesign} />
+        </State>
         <State value="CSSBeyond">
-          <ContentWrapper title="CSS além do layout" component={Indice} />
+          <ContentWrapper title="" component={CSSAlemDoLayout} />
         </State>
         <button
           onClick={this.prevStep}

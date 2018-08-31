@@ -1,5 +1,6 @@
 import React from "react";
 import ContentWithDescription from "../../../components/ContentWithDescription";
+import CodeWrapper from "../../../components/CodeWrapper"
 
 const UnidadesDeMedidas = () => (
   <div>
@@ -29,6 +30,19 @@ const UnidadesDeMedidas = () => (
     <ContentWithDescription
       title=" Outras unidades para fontes"
       content="em, rem, ex, ch"
+    />
+    <ContentWithDescription
+      title="Função Calc()"
+      content="Também é possível combinar todas essas unidades com a função calc() do CSS para calcular valores relativos."
+      special={
+        <div>
+          <p>Grid.styl</p>
+          <CodeWrapper lang="css">
+            {`.content-wrapper {
+  width: calc(100vw - 60px)
+}`}
+          </CodeWrapper>
+        </div>}
     />
   </div>
 );

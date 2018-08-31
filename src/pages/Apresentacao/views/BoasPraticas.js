@@ -34,8 +34,8 @@ const BoasPraticas = () => (
       content="Evite nesting em mais de 3 níveis. Aumenta o tamanho do CSS final e fica difícil pra ler."
     />
     <ContentWithDescription
-      title="Prefira usar classes como seletor, ao invés de ID's ou tags."
-      content="Evite nesting em mais de 3 níveis. Aumenta o tamanho do CSS final e fica difícil pra ler."
+      title="Manutenção"
+      content="Sempre escreva um código pensando na hora de voltar pra dar manutenção."
     />
   </div>
 );

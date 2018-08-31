@@ -6,7 +6,7 @@ export const units = {
 }
 
 export const colors = {
-  theme: '#35a7ff',
+  theme: '#1d1f21',
   white: '#fff',
   light: '#ccc',
 }

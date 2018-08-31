@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const ContentWrapper = ({title, component: Component}) => (
   <div className="container">
-    <h1 className="opacity-3">CSS Workshop</h1>
+    {/* <h1 className="opacity-3">CSS Workshop</h1> */}
     <div className="content content-wrapper">
-      <h2 className="fs fs-xl title">{title}:</h2>
+      {title && <h2 className="fs fs-xl title">{title}:</h2>}
       <Component />
     </div>
   </div>

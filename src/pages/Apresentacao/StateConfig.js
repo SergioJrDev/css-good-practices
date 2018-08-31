@@ -1,5 +1,5 @@
 const StateConfig = {
-  initial: "Metodologias",
+  initial: "Indice",
   states: {
     Indice: {
       on: {
@@ -27,18 +27,25 @@ const StateConfig = {
     Metodologias: {
       on: {
         PREV: "VariaveisGlobais",
-        NEXT: "FrameworksUI"
+        NEXT: "Atomic"
+      }
+    },
+    Atomic: {
+      on: {
+        NEXT: "FrameworksUI",
+        PREV: "Metodologias"
       }
     },
     FrameworksUI: {
       on: {
-        PREV: "Metodologias",
+        PREV: "Atomic",
         NEXT: "Grid"
       }
     },
     Grid: {
       on: {
-        PREV: "FrameworksUI"
+        PREV: "FrameworksUI",
+        NEXT: "CSSBeyond"
       }
     },
     CSSBeyond: {
