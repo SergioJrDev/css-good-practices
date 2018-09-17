@@ -1,6 +1,5 @@
 import React from "react";
 import ContentWithDescription from "../../../components/ContentWithDescription";
-import { CodeWrapper } from "../../../components";
 import Resumo from "./../../../assets/Resumo.png";
 import Atomos from "./../../../assets/Atomos.png";
 import Moleculas from "./../../../assets/Moleculas.png";

@@ -1,7 +1,6 @@
 import React from "react";
 import ContentWithDescription from "../../../components/ContentWithDescription";
 import CodeWrapper from "../../../components/CodeWrapper";
-import Button from "react-bootstrap/lib/Button";
 
 const BoasPraticas = () => (
   <div>
